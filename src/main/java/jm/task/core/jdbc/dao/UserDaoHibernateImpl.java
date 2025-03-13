@@ -73,7 +73,7 @@ public class UserDaoHibernateImpl implements UserDao {
                 transaction.rollback();
             }
             System.err.println("Ошибка при сохранении пользователя:");
-            e.printStackTrace();
+
         }
     }
 
